@@ -24,7 +24,10 @@
 > * 清华大学：index-url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main   trusted-host: mirrors.tuna.tsinghua.edu.cn 参考链接https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 > * 阿里云：index-url: https://mirrors.aliyun.com/pypi/simple/   trusted-host: mirrors.aliyun.com
 > * 豆瓣  index-url:http://pypi.douban.com/simple trusted-host: pypi.douban.com
-* 方法2：使用命令行  pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade 
+* 方法2：使用命令行  
+`
+pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade 
+`
  
 ## 解决Python程序运行错误
 * 无法启动 
