@@ -32,21 +32,21 @@ pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban
 ## 解决Python程序运行错误
 * 无法启动 
 |条目|描述|备注|
-|: ------------- |: ----------: | -----------:|
+|:------------- |:----------:| -----------:|
 |问题|运行jupyter notebook出现白屏||
 |原因|浏览器不支持notebook||
-|解决方案|更换为谷歌浏览器||
-* 
+|解决方案|将系统默认浏览器设置为谷歌浏览器，即可看到||
+
+* 缺少进程条支持库
 |条目|描述|备注|
-|: ------------- |:   ----------: | -----------:|
+|:------------- |:----------:| -----------:|
 |问题|’tqdm_notebook’ object has no attribute 'disp’||
 |原因|缺少ipywidgets||
 |解决方案|pip install ipywidgets||
 
-*
+* 运行程序中出现错误
 |条目|描述|备注|
-| : ------------- |: ----------: | -----------:|
+|:-------------|: ----------:| -----------:|
 |问题|Can't pickle <function <lambda> at 0x7f989a4e10d0>: attribute lookup <lambda> on __main__ failed||
-
 |原因|所用浏览器不合适||
-|解决方案|打开notebook，获得相应链接使用此链接 http://127.0.0.1:8949/notebooks/Downloads/ML2021-Spring-main/HW03/HW03.ipynb||
+|解决方案|将系统默认浏览器设置为谷歌浏览器，即可正常运行程序||
