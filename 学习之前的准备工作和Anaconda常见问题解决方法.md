@@ -48,5 +48,5 @@ pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban
 | ------------- | ---------- | -----------|
 |问题|Can't pickle <function <lambda> at 0x7f989a4e10d0>: attribute lookup <lambda> on __main__ failed||
 
-|原因|||
-|解决方案|||
+|原因|所用浏览器不合适||
+|解决方案|打开notebook，获得相应链接使用此链接 http://127.0.0.1:8949/notebooks/Downloads/ML2021-Spring-main/HW03/HW03.ipynb||
