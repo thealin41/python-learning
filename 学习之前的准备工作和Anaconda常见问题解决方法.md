@@ -29,11 +29,11 @@ conda create --name snowflakes biopython## 使用Pip安装
 > * 阿里云：index-url: https://mirrors.aliyun.com/pypi/simple/   trusted-host: mirrors.aliyun.com
 > * 豆瓣  index-url:http://pypi.douban.com/simple trusted-host: pypi.douban.com
 * 方法2：使用命令行  
-`pip install [modulename]`
-或者
-`pip install -r requirements.txt`
-`pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade`
-
+```
+pip install [modulename]
+pip install -r requirements.txt
+pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.douban.com`
+```
  
 ## 解决Python程序运行错误
 ### 无法启动 
