@@ -13,10 +13,20 @@
 > * 管理依赖库
 
 # 常见安装库方法
-* 使用Conda安装 
-> * 使用工具界面
-> * 使用命令行
-* 使用Pip安装 pip install
+## 使用Conda安装 
+* 使用工具界面
+* 使用命令行
+`
+conda create --name snowflakes biopython## 使用Pip安装 
+`
+`
+pip install [modulename]
+`
+或者
+`
+pip install -r requirements.txt
+`
+* 检查当前环境的安装包
 # 常见安装问题
 ## 使用pip 下载依赖包安装较慢，可采用镜像
 * 方法1：参考PyPI镜像 https://developer.aliyun.com/mirror/pypi 修改 .pip/pip.conf 文件中的index-url 和trusted-host
