@@ -19,13 +19,7 @@
 `
 conda create --name snowflakes biopython## 使用Pip安装 
 `
-`
-pip install [modulename]
-`
-或者
-`
-pip install -r requirements.txt
-`
+
 * 检查当前环境的安装包
 # 常见安装问题
 ## 使用pip 下载依赖包安装较慢，可采用镜像
@@ -35,9 +29,11 @@ pip install -r requirements.txt
 > * 阿里云：index-url: https://mirrors.aliyun.com/pypi/simple/   trusted-host: mirrors.aliyun.com
 > * 豆瓣  index-url:http://pypi.douban.com/simple trusted-host: pypi.douban.com
 * 方法2：使用命令行  
-`
-pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade 
-`
+`pip install [modulename]`
+或者
+`pip install -r requirements.txt`
+`pip install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade`
+
  
 ## 解决Python程序运行错误
 ### 无法启动 
