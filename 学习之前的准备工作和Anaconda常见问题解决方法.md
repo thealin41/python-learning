@@ -23,12 +23,20 @@ conda create --name snowflakes biopython## 使用Pip安装
 * 检查当前环境的安装包
 # 常见安装问题
 ## 使用pip 下载依赖包安装较慢，可采用镜像
-* 方法1：参考PyPI镜像 https://developer.aliyun.com/mirror/pypi 修改 .pip/pip.conf 文件中的index-url 和trusted-host
+### 方法1：参考PyPI镜像 https://developer.aliyun.com/mirror/pypi 修改 .pip/pip.conf 文件中的index-url 和trusted-host
+以下为pip文件放置路径，如果无此文件，可自行创建。
+[windows环境]文件名后缀为ini
+C:\Users（用户）\janey（当前用户）
+[MacOS]文件名后缀为conf
+/User(用户)/jane(用户名)
 参考镜像如下：
-> * 清华大学：index-url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main   trusted-host: mirrors.tuna.tsinghua.edu.cn 参考链接https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
-> * 阿里云：index-url: https://mirrors.aliyun.com/pypi/simple/   trusted-host: mirrors.aliyun.com
-> * 豆瓣  index-url:http://pypi.douban.com/simple trusted-host: pypi.douban.com
-* 方法2：使用命令行  
+* 清华大学：index-url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main   trusted-host: mirrors.tuna.tsinghua.edu.cn 参考链接https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
+* 阿里云：index-url: https://mirrors.aliyun.com/pypi/simple/   trusted-host: mirrors.aliyun.com
+* 豆瓣  index-url:http://pypi.douban.com/simple trusted-host: pypi.douban.com
+以下为一个案例
+```
+```
+### 方法2：在Conda环境下使用命令行  
 ```
 pip install [modulename]
 pip install -r requirements.txt
