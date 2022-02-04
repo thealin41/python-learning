@@ -17,15 +17,27 @@
 * 使用工具界面
 * 使用命令行
 `
-conda create --name snowflakes biopython## 使用Pip安装 
+conda create --name [envname] python=3.8  
 `
-
 * 检查当前环境的安装包
+`
+pip list
+`
+## 使用Pip安装
 # 常见安装问题
 ## 问：为何要建立不同的Python环境？
 答：Python项目依赖于大量的包，不同的项目依赖的包版本不一样。为避免出现依赖包相关的问题，可使用Conda为每个项目创建独立的环境，包含文件、包和他们的依赖关系，这些环境不会与其他环境发生交互。通常将依赖包文件和版本信息放在requirements文件中，建立环境时，只需要执行`pip install -r requirements.txt`。当开始使用Conda时，你已经有了一个名为base的默认环境。不过，不建议把程序放到基础环境中，而是需要创建独立的环境来保持程序相互隔离。
 可参考 https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-environments
-## 使用pip 下载依赖包安装较慢，可采用镜像
+## 问：如何修改jupyter notebook 文件的位置？
+答：默认在C盘，可修改位置
+在jupyter_notebook_config.py 文件中修改
+`
+c.NotebookApp.notebook_dir = 'D:/workspace/jupyter'
+`
+注：如无jupyter_notebook_config.py，打开Anaconda Prompt输jupyter notebook
+–generate-config，自动生成一个.jupyter的文件夹，路径为 C:\Users\[username]\.jupyter
+## 问：使用pip 下载依赖包安装较慢，如何解决？
+答：可采用镜像
 ### 方法1：参考PyPI镜像 https://developer.aliyun.com/mirror/pypi 修改 .pip/pip.conf 文件中的index-url 和trusted-host
 以下为pip文件放置路径，如果无此文件，可自行创建。
 [windows环境]文件名后缀为ini，即pip.ini
