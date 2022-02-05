@@ -31,8 +31,8 @@ pip install [pkgname]==version
 ## 问：为何要建立不同的Python环境？
 答：Python项目依赖于大量的包，不同的项目依赖的包版本不一样。为避免出现依赖包相关的问题，可使用Conda为每个项目创建独立的环境，包含文件、包和他们的依赖关系，这些环境不会与其他环境发生交互。通常将依赖包文件和版本信息放在requirements文件中，建立环境时，只需要执行`pip install -r requirements.txt`。当开始使用Conda时，你已经有了一个名为base的默认环境。不过，不建议把程序放到基础环境中，而是需要创建独立的环境来保持程序相互隔离。
 可参考 https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-environments
-## 问：如何修改jupyter notebook 文件的位置？
-答：1.默认在C盘，可修改位置
+## 问：如何修改jupyter notebook 文件的路径？
+答：1. jupyter notebook 默认的默认路径为  C:\Users\  [username]，可修改其路径
 在jupyter_notebook_config.py 文件中修改
 `
 c.NotebookApp.notebook_dir = 'D:\\workspace\\jupyter'
@@ -41,7 +41,8 @@ c.NotebookApp.notebook_dir = 'D:\\workspace\\jupyter'
 注：如无jupyter_notebook_config.py，打开Anaconda Prompt输jupyter notebook
 –generate-config，自动生成一个.jupyter的文件夹，路径为 C:\Users\[username]\.jupyter
 2. 可使用命令行 jupyter notebook --notebook-dir=D:\workspace\jupyter
-
+如图所示  ![设置路径](https://github.com/bettermorn/IAICourse/blob/main/img/%E8%AE%BE%E7%BD%AEjupyternotebook%E4%BD%8D%E7%BD%AE%E5%91%BD%E4%BB%A4.png)
+再使用 Anaconda Jupyter Notebook 命令打开，可跳转到设置的路径。
 3. 使用DOS命令切换到相应目录，再启动 notebook
 ## 问：使用pip 下载依赖包安装较慢，如何解决？
 答：可采用镜像
