@@ -44,6 +44,7 @@ c.NotebookApp.notebook_dir = 'D:\\workspace\\jupyter'
 如图所示  ![设置路径](https://github.com/bettermorn/IAICourse/blob/main/img/%E8%AE%BE%E7%BD%AEjupyternotebook%E4%BD%8D%E7%BD%AE%E5%91%BD%E4%BB%A4.png)
 再使用 Anaconda Jupyter Notebook 命令打开，可跳转到设置的路径。
 3. 使用DOS命令切换到相应目录，再启动 notebook
+![在环境控制台启动](https://github.com/bettermorn/IAICourse/blob/main/img/%E4%BB%8Enotebook%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E4%B8%AD%E5%90%AF%E5%8A%A8notebook.png)
 ## 问：使用pip 下载依赖包安装较慢，如何解决？
 答：可采用镜像
 ### 方法1：参考PyPI镜像 https://developer.aliyun.com/mirror/pypi 修改 .pip/pip.conf 文件中的index-url 和trusted-host
