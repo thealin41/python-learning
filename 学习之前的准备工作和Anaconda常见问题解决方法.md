@@ -34,7 +34,7 @@ pip install [pkgname]==version
 ## 问：如何为不同的Python环境安装相应的jupyter notebook？
 答：在Python环境终端，运行
 `conda install jupyter`
-安装成功后，可在anaconda界面上点击“open with Jupyter Notebook”，也可以使用命令
+安装成功后，要打开jupyter notebook 文件，可在anaconda界面上点击“open with Jupyter Notebook”，也可以使用命令
 `jupyter notebook`
 ## 问：如何修改jupyter notebook 文件的路径？
 答：可采用以下几种方法修改路径。
