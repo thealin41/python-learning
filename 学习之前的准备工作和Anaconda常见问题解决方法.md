@@ -100,3 +100,17 @@ pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.do
 |问题|Can't pickle <function <lambda> at 0x7f989a4e10d0>: attribute lookup <lambda> on __main__ failed||
 |原因|所用浏览器不适合程序运行||
 |解决方案|将系统默认浏览器设置为谷歌浏览器，即可正常运行程序||
+
+### 权限不够导致symbolic link privilege错误
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题|Windows下出现ERROR: Command errored out with exit status 1: OSError: symbolic link privilege not held||
+|原因|权限不够|参考：https://github.com/explosion/spaCy/issues/895|
+|解决方案|以管理员身份启动Anaconda Navigator||
+
+### 无法编译依赖包
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题|Failed building wheel for hydra||
+|原因|error: Microsoft Visual C++ 14.0 or greater is required. |升级VC Builder|
+|解决方案|安装Microsoft C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/||
