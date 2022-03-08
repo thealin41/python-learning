@@ -11,6 +11,14 @@
 > * 管理环境
 > * 管理Python
 > * 管理依赖库
+# 程序运行方法
+不同的文件格式，在相应的路径和Conda环境下分别运行以下命令
+## python文件 .py格式
+`python <filename>.py`
+## notebook文件
+`ipython <filename>.ipynb`
+注：如无法运行，需根据以下命令先安装ipython
+`conda install ipython`
 
 # 常见安装库方法
 ## 使用Conda安装 
