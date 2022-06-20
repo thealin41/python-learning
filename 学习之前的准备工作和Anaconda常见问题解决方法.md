@@ -15,10 +15,10 @@
 * 管理conda
 * 管理环境
 * 管理Python
-* 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list -n <env_name>`
+* 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list -n`， 如需检查特定环境的依赖库，可使用`conda list -n <env_name>`
 以下为例子
 ```
-conda list -n MLSpring
+conda list
 # packages in environment at /Users/jane/anaconda3/envs/MLSpring:
 #
 # Name                    Version                   Build  Channel
