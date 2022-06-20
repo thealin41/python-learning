@@ -10,12 +10,23 @@
 * Anaconda 下载链接：https://www.anaconda.com/products/individual  注：Anaconda 自带Python版本
 * Anaconda 安装注意事项
 > * 操作系统 windows 10以上，windows 7会出现其他问题，64位机器
-
-* 学习使用Conda，https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
-> * 管理conda
-> * 管理环境
-> * 管理Python
-> * 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list`
+## 学习使用Conda
+* 参考 https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+* 管理conda
+* 管理环境
+* 管理Python
+* 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list -n <env_name>`
+以下为例子
+```
+conda list -n MLSpring
+# packages in environment at /Users/jane/anaconda3/envs/MLSpring:
+#
+# Name                    Version                   Build  Channel
+addict                    2.4.0                    pypi_0    pypi
+.........
+torch                     1.8.1                    pypi_0    pypi
+torchvision               0.11.2                   pypi_0    pypi
+```
 # 程序运行方法
 不同的文件格式，在相应的路径和Conda环境下分别运行以下命令
 ## python文件 .py格式
