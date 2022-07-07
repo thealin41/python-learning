@@ -27,6 +27,7 @@ addict                    2.4.0                    pypi_0    pypi
 torch                     1.8.1                    pypi_0    pypi
 torchvision               0.11.2                   pypi_0    pypi
 ```
+* 熟悉torch和torchvision适配版本矩阵，https://pypi.org/project/torchvision/
 # 程序运行方法
 不同的文件格式，在相应的路径和Conda环境下分别运行以下命令
 ## python文件 .py格式
