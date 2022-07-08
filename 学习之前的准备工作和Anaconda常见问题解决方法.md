@@ -137,3 +137,24 @@ pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.do
 |问题|Failed building wheel for hydra||
 |原因|error: Microsoft Visual C++ 14.0 or greater is required. |升级VC Builder|
 |解决方案|安装Microsoft C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/||
+
+### 无法使用GPU
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题|can't convert CUDA tensor to numpy. Use Tensor.cpu () to copy the tensor to host memory first. ||
+|原因|can't convert CUDA tensor to numpy ||
+|解决方案|allocate tensor in RAM，使用.cpu()||
+
+### torch 和torchvision不匹配
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题| ||
+|原因|||
+|解决方案|查看torch、torchvision和python版本的适配关系 <br/>https://github.com/pytorch/vision#installation||
+
+### torchvision 缺乏models.util模块
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题| from torchvision.models.utils import load_state_dict_from_url 时会出现以下报错：ModuleNotFoundError: No module named 'torchvision.models.utils'||
+|原因|高版本的torchvision不包括这个模块||
+|解决方案|采用即可from torch.hub import load_state_dict_from_url||
