@@ -158,3 +158,19 @@ pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.do
 |问题| from torchvision.models.utils import load_state_dict_from_url 时会出现以下报错：ModuleNotFoundError: No module named 'torchvision.models.utils'||
 |原因|高版本的torchvision不包括这个模块||
 |解决方案|采用即可from torch.hub import load_state_dict_from_url||
+
+### OpenCV 依赖库问题
+
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题| Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly||
+|原因|||
+|解决方案|pip install --upgrade pip setuptools wheel <br/> pip install opencv-python|可参考https://stackoverflow.com/questions/63732353/error-could-not-build-wheels-for-opencv-python-which-use-pep-517-and-cannot-be|
+
+### OpenCV 依赖库问题
+
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题| Could not build wheels for opencv_python, which is required to install pyproject.toml-based projects||
+|原因|||
+|解决方案|pip install --upgrade pip setuptools wheel <br/> pip install opencv-python||
