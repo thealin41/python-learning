@@ -182,3 +182,10 @@ pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.do
 |问题|无法启动conda navigator但可以启动conda terminal  ||
 |原因|配置有问题，navigator需要升级或重置||
 |解决方案|`anaconda-navigator --reset`|参考https://docs.anaconda.com/anaconda/navigator/troubleshooting/#issues-launching-or-initializing|
+
+### 操作CVS文件出现错误
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题| “unicodedecodeerror 'utf-8' codec can't decode byte 0xff in position 0 invalid start byte”  or “keyError” ||
+|原因|CVS文件编码问题||
+|解决方案|注意查看CVS文件的编码格式，需要为UTF-8格式||
