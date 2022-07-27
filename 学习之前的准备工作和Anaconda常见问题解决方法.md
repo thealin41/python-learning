@@ -12,7 +12,7 @@
 > * 操作系统 windows 10以上，windows 7会出现其他问题，64位机器
 ## 学习使用Conda
 * 参考 https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
-* 管理conda
+* 管理conda，出现问题可参考 https://www.anaconda.com/blog/what-to-do-when-things-go-wrong-in-anaconda
 * 管理环境
 * 管理Python
 * 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list -n`， 如需检查特定环境的依赖库，可使用`conda list -n <env_name>`
@@ -174,3 +174,11 @@ pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.do
 |问题| Could not build wheels for opencv_python, which is required to install pyproject.toml-based projects||
 |原因|||
 |解决方案|pip install --upgrade pip setuptools wheel <br/> pip install opencv-python||
+
+
+### Conda Navigator启动失败
+|条目|描述|备注|
+|------------|----------|-----------|
+|问题|无法启动conda navigator但可以启动conda terminal  ||
+|原因|配置有问题，navigator需要升级或重置||
+|解决方案|`anaconda-navigator --reset`|参考https://docs.anaconda.com/anaconda/navigator/troubleshooting/#issues-launching-or-initializing|
