@@ -40,9 +40,9 @@ python
 `python <filename>.py`
 ## notebook文件
 `ipython <filename>.ipynb`
-注：如无法运行，需根据以下命令先安装ipython
+注：如无法运行，需根据以下命令先安装ipython <br/>
 `conda install ipython`
-
+`conda install ipykernel`
 # 常见安装库方法
 ## 使用Conda安装 
 * 使用工具界面
