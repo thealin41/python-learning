@@ -14,7 +14,7 @@
 * 参考 https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 * 管理conda，出现问题可参考 https://www.anaconda.com/blog/what-to-do-when-things-go-wrong-in-anaconda
 * 管理环境
-* 管理Python
+* 管理Python  ，如需要降低python版本，使用`conda install python=3.7`
 * 管理依赖库  检查conda的当前环境安装了哪些库，可以使用命令  `conda list -n`， 如需检查特定环境的依赖库，可使用`conda list -n <env_name>`
 以下为例子
 ```
@@ -26,6 +26,12 @@ addict                    2.4.0                    pypi_0    pypi
 .........
 torch                     1.8.1                    pypi_0    pypi
 torchvision               0.11.2                   pypi_0    pypi
+```
+> * 确认依赖包是否正确安装， 可在conda 控制台使用
+```
+python 
+>>> import torch
+>>> from tsai.all import *
 ```
 * 熟悉torch和torchvision适配版本矩阵，https://pypi.org/project/torchvision/
 # 程序运行方法
