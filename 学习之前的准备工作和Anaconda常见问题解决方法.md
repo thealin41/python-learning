@@ -6,6 +6,14 @@
 # 开发语言 
 * Python 版本根据具体情况选择，使用anaconda的时候，不需要单独安装。
 * Python官网  https://www.python.org/
+# 数据获取方法
+* gdown:  https://pypi.org/project/gdown/ pip install gdown
+* wget apt-get yum: The difference between wget and yum and apt-get in linux system commands  https://www.codetd.com/en/article/11071843
+# Tools
+* brew:https://brew.sh/
+* Macport:   https://www.macports.org/ refer to https://www.slant.co/versus/1588/1674/~macports_vs_homebrew
+* git-lfs An open source Git extension for versioning large files. https://git-lfs.github.com/. 
+* curl client for url. https://curl.se/docs/ 
 # 开发环境
 * Anaconda 下载链接：https://www.anaconda.com/products/individual  注：Anaconda 自带Python版本
 * Anaconda 安装注意事项
