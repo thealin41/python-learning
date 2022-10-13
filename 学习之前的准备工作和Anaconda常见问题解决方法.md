@@ -6,6 +6,7 @@
 # 开发语言 
 * Python 版本根据具体情况选择，使用anaconda的时候，不需要单独安装。
 * Python官网  https://www.python.org/
+* search dependency by accessing https://pypi.org/search/?q=pypi
 # 数据获取方法
 * gdown:  https://pypi.org/project/gdown/ pip install gdown
 * wget apt-get yum: The difference between wget and yum and apt-get in linux system commands  https://www.codetd.com/en/article/11071843
