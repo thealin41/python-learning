@@ -15,5 +15,7 @@
 
 # 参考书籍
 * 艾伦 B. 唐尼 (Allen B. Downey). 像计算机科学家一样思考Python（第2版）（异步图书） (Chinese Edition) . 人民邮电出版社. Kindle Edition. 书籍补充材料 http://www.greenteapress.com/thinkpython2/code
-
-# 
+* 斯维加特(Al Sweigart). Python编程快速上手让繁琐工作自动化（异步图书） (Chinese Edition) . 人民邮电出版社. Kindle Edition. 
+* 韦斯·麦金尼(Wes McKinney). 利用Python进行数据分析（原书第2版） (OReilly精品图书系列) (Chinese Edition) . Kindle Edition. 
+* 艾伦·唐尼. Python数字信号处理应用 (Chinese Edition) . Kindle Edition. 
+* Steven Bird,Ewan Klein,Edward Loper. Python自然语言处理（异步图书） (Chinese Edition) . 人民邮电出版社. Kindle Edition. 
