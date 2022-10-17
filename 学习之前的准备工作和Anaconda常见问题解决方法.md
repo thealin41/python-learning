@@ -11,6 +11,7 @@
 * gdown:  https://pypi.org/project/gdown/ pip install gdown
 * wget apt-get yum: The difference between wget and yum and apt-get in linux system commands  https://www.codetd.com/en/article/11071843
 # Tools
+* git： 安装git，并了解git原理。下载：https://git-scm.com/downloads。参考https://git-scm.com/book/en/v2
 * brew:https://brew.sh/
 * Macport:   https://www.macports.org/ refer to https://www.slant.co/versus/1588/1674/~macports_vs_homebrew
 * git-lfs An open source Git extension for versioning large files. https://git-lfs.github.com/. 
