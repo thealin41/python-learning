@@ -64,9 +64,9 @@ conda create --name [envname] python=3.8
 `
 pip list
 `
-## 使用Pip安装
+## 使用Pip安装或者降版本
 `
-pip install [pkgname]==version
+pip install [pkgname]==version 
 `
 # 常见安装问题
 ## 问：what's difference between pip install and conda install？
