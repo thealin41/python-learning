@@ -1,6 +1,10 @@
 # 基本原理
 持续学习(Continual Learning)算法试图为神经网络实现像人们一样学习大量不同的任务，不出现任何负面的相互干扰， 并解决灾难性的遗忘问题。持续学习算法的重点不是如何利用在以前任务中学到的知识来帮助更好地学习新任务，而是解决灾难性遗忘的问题。
 
+参考文献：[最新综述 | 类别增量学习研究进展和性能评价](https://www.zhuanzhi.ai/vip/cf8a64587dc628dab1cca6945b98a751) 全文链接[类别增量学习研究进展和性能评价](https://github.com/bettermorn/IAICourse/blob/main/refermaterials/papers/%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95%E5%92%8C%E6%80%A7%E8%83%BD%E8%AF%84%E4%BB%B7.pdf)
+论文和代码汇总：
+https://paperswithcode.com/task/incremental-learning
+
 # 1.Incremental Classifier and Representation Learning
 ## 原理
 Incremental Classifier and Representation Learning
