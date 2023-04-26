@@ -52,7 +52,19 @@ Methods Reproduced
 
 * Coil: Co-Transport for Class-Incremental Learning. ACM MM2021 [paper]
  
-
-# 
-
-
+##  开源框架 avalanche
+https://avalanche.continualai.org/getting-started/learn-avalanche-in-5-minutes
+https://github.com/ContinualAI/avalanche
+# 增量学习需要注意的问题
+## 1. 如何避免过拟合？
+* 正则化：L1和L2
+* 早停止：
+* 数据增强： 旋转、平移、缩放
+* Dropout：随机删除神经元
+* 稀疏表示：减少特征之间的冗余信息
+* 集成学习：多个模型加权平均，提高泛化能力
+## 2. 如何处理新数据和旧数据之间的差异
+* 更新参数适应新的数据分布
+* 增量学习算法：IPCA、ILDA
+* 数据增强技术：旋转、平移、缩放
+* 迁移学习技术：知识蒸馏、迁移学习
