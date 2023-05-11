@@ -5,7 +5,7 @@
 * [最新综述 | 类别增量学习研究进展和性能评价](https://www.zhuanzhi.ai/vip/cf8a64587dc628dab1cca6945b98a751) 全文链接[类别增量学习研究进展和性能评价](https://github.com/bettermorn/IAICourse/blob/main/refermaterials/papers/%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95%E5%92%8C%E6%80%A7%E8%83%BD%E8%AF%84%E4%BB%B7.pdf)
 * [让模型实现“终生学习”，佐治亚理工学院提出Data-Free的增量学习](https://mp.weixin.qq.com/s/Fm9ufPD6rzL2VzaqpdFpjg)
 * [万文长字总结「类别增量学习」的前世今生、开源工具包](https://mp.weixin.qq.com/s/A472p7XGZMhAMAR2wyHZJw)
-论文和代码汇总：
+* 论文和代码汇总：
 https://paperswithcode.com/task/incremental-learning
 
 # 1.Incremental Classifier and Representation Learning
