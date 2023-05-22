@@ -78,4 +78,25 @@ https://github.com/ContinualAI/avalanche
 | 特征回放|IL2A，PASS|保存深度特征空间的旧类 别特征来维持决策面|
 | 网络结构|DER，SSRE|冻结已有网络参数, 新参数用于学习新类别|
 
+# 参考类型
+3类别增量学习中的知识蒸馏方法
+https://github.com/bettermorn/IAICourse/blob/main/img/3%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F%E6%96%B9%E6%B3%95.png
+![3类别增量学习中的知识蒸馏方法]
+(https://github.com/bettermorn/IAICourse/blob/main/img/3%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F%E6%96%B9%E6%B3%95.png)
+4基于数据回放的类别增量学习中的新旧类别偏差校准方法总结
+https://github.com/bettermorn/IAICourse/blob/main/img/4%E5%9F%BA%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%9B%9E%E6%94%BE%E7%9A%84%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%96%B0%E6%97%A7%E7%B1%BB%E5%88%AB%E5%81%8F%E5%B7%AE%E6%A0%A1%E5%87%86%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.png
+![4基于数据回放的类别增量学习中的新旧类别偏差校准方法总结](https://github.com/bettermorn/IAICourse/blob/main/img/4%E5%9F%BA%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%9B%9E%E6%94%BE%E7%9A%84%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%96%B0%E6%97%A7%E7%B1%BB%E5%88%AB%E5%81%8F%E5%B7%AE%E6%A0%A1%E5%87%86%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.png)
+6基于样本回放的方法在 CIFAR 100, ImageNet-Sub 和 ImageNet-Full 上的平均增量准确率 (%) 比较
+![](https://github.com/bettermorn/IAICourse/blob/main/img/6%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E5%9B%9E%E6%94%BE%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8%20CIFAR%20100%2C%20ImageNet-Sub%20%E5%92%8C%20ImageNet-Full%20%E4%B8%8A%E7%9A%84%E5%B9%B3%E5%9D%87%E5%A2%9E%E9%87%8F%E5%87%86%E7%A1%AE%E7%8E%87%20(%25)%20%E6%AF%94%E8%BE%83.png)
+7基于样本回放的方法在 CIFAR 100, ImageNet-Sub 和 ImageNet-Full 上的遗忘率 (%) 比较
+https://github.com/bettermorn/IAICourse/blob/main/img/7%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E5%9B%9E%E6%94%BE%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8%20CIFAR%20100%2C%20ImageNet-Sub%20%E5%92%8C%20ImageNet-Full%20%E4%B8%8A%E7%9A%84%E9%81%97%E5%BF%98%E7%8E%87%20(%25)%20%E6%AF%94%E8%BE%83.png
+![7基于样本回放的方法在 CIFAR 100, ImageNet-Sub 和 ImageNet-Full 上的遗忘率 (%) 比较](https://github.com/bettermorn/IAICourse/blob/main/img/7%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E5%9B%9E%E6%94%BE%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8%20CIFAR%20100%2C%20ImageNet-Sub%20%E5%92%8C%20ImageNet-Full%20%E4%B8%8A%E7%9A%84%E9%81%97%E5%BF%98%E7%8E%87%20(%25)%20%E6%AF%94%E8%BE%83.png)
+8 非样本回放类别增量学习方法平均增量准确率 (%) 比较
+https://github.com/bettermorn/IAICourse/blob/main/img/8%20%E9%9D%9E%E6%A0%B7%E6%9C%AC%E5%9B%9E%E6%94%BE%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%B9%B3%E5%9D%87%E5%A2%9E%E9%87%8F%E5%87%86%E7%A1%AE%E7%8E%87%20(%25)%20%E6%AF%94%E8%BE%83.png
+![8 非样本回放类别增量学习方法平均增量准确率 (%) 比较](https://github.com/bettermorn/IAICourse/assets/568965/fae4de7a-e011-4798-bb93-0fa484ca7285)
+10代表性类别增量学习方法在 CIFAR-100 和 ImageNet-Sub 数据集上的性能比较  数据回放方法为 每个旧类别保存 10 个样本  从左到右依次为 5, 10 和 25 阶段增量学习设定
+https://github.com/bettermorn/IAICourse/blob/main/img/10%E4%BB%A3%E8%A1%A8%E6%80%A7%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%9C%A8%20CIFAR-100%20%E5%92%8C%20ImageNet-Sub%20%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8A%E7%9A%84%E6%80%A7%E8%83%BD%E6%AF%94%E8%BE%83.%20%E6%95%B0%E6%8D%AE%E5%9B%9E%E6%94%BE%E6%96%B9%E6%B3%95%E4%B8%BA%20%E6%AF%8F%E4%B8%AA%E6%97%A7%E7%B1%BB%E5%88%AB%E4%BF%9D%E5%AD%98%2010%20%E4%B8%AA%E6%A0%B7%E6%9C%AC.%20%E4%BB%8E%E5%B7%A6%E5%88%B0%E5%8F%B3%E4%BE%9D%E6%AC%A1%E4%B8%BA%205%2C%2010%20%E5%92%8C%2025%20%E9%98%B6%E6%AE%B5%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E8%AE%BE%E5%AE%9A.png
+![10代表性类别增量学习方法在 CIFAR-100 和 ImageNet-Sub 数据集上的性能比较  数据回放方法为 每个旧类别保存 10 个样本  从左到右依次为 5, 10 和 25 阶段增量学习设定](https://github.com/bettermorn/IAICourse/assets/568965/e4f44d74-f2f7-4d3e-89fb-956e26aafd52)
+
+
 
