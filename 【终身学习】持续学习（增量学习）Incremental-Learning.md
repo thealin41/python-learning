@@ -82,8 +82,8 @@ https://github.com/ContinualAI/avalanche
 来源全文链接[类别增量学习研究进展和性能评价](https://github.com/bettermorn/IAICourse/blob/main/refermaterials/papers/%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95%E5%92%8C%E6%80%A7%E8%83%BD%E8%AF%84%E4%BB%B7.pdf)
 3类别增量学习中的知识蒸馏方法
 https://github.com/bettermorn/IAICourse/blob/main/img/3%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F%E6%96%B9%E6%B3%95.png
-![3类别增量学习中的知识蒸馏方法]
-(https://github.com/bettermorn/IAICourse/blob/main/img/3%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F%E6%96%B9%E6%B3%95.png)
+![3类别增量学习中的知识蒸馏方法](https://github.com/bettermorn/IAICourse/assets/568965/9cde7774-0da1-4b79-b42c-afed55a249f9)
+
 4 基于数据回放的类别增量学习中的新旧类别偏差校准方法总结
 https://github.com/bettermorn/IAICourse/blob/main/img/4%E5%9F%BA%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%9B%9E%E6%94%BE%E7%9A%84%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%96%B0%E6%97%A7%E7%B1%BB%E5%88%AB%E5%81%8F%E5%B7%AE%E6%A0%A1%E5%87%86%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.png
 ![4基于数据回放的类别增量学习中的新旧类别偏差校准方法总结](https://github.com/bettermorn/IAICourse/blob/main/img/4%E5%9F%BA%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%9B%9E%E6%94%BE%E7%9A%84%E7%B1%BB%E5%88%AB%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%96%B0%E6%97%A7%E7%B1%BB%E5%88%AB%E5%81%8F%E5%B7%AE%E6%A0%A1%E5%87%86%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.png)
