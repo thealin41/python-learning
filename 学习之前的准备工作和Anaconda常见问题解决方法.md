@@ -120,7 +120,7 @@ jupyter notebook
 ```
 pip install [modulename]
 pip install -r requirements.txt
-pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.douban.com`
+pip install torch -index-url http://pypi.douban.com/simple -trusted-host pypi.douban.com
 ```
  
 ## 解决Python程序运行错误
